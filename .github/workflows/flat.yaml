@@ -26,5 +26,5 @@ jobs:
         with:
           http_url: https://api.github.com/graphql
           downloaded_filename: github.json
-          authorization: ${{ secrets.PAT }}
+          authorization: ${{ secrets.API_PAT }}
           axios_config: query.json
